@@ -1,0 +1,23 @@
+{
+  "name": "test-fw-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fw-model": "git+https://github.com/lemoustachiste/fw-model.git#78cc8c7d8c258b75dc467c49c6d7a9d09cd8d9d2"
+  },
+  "devDependencies": {
+    "rollup": "^1.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-serve": "^0.6.1",
+    "rollup-plugin-typescript": "^1.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  }
+}
